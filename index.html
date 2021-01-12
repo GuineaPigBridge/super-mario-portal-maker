@@ -914,7 +914,7 @@ AO = function(e, f, g) {
       location.hash = "";
       if (t.K == false) alert("You need to test your level first.");
       else {
-        navigator.share({title:"SUPER MARIO PORTAL MAKER",text:"Play the stage I made: \n"+ encodeURI(location.origin+location.pathname+"#"+JSON.stringify({          
+        navigator.share({title:"SUPER MARIO PORTAL MAKER",text:"Play the stage I made: \n",url:encodeURI(location.origin+location.pathname+"#"+JSON.stringify({          
           hash: t.hash,
           I: t.I,
           J: t.J
